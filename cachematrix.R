@@ -1,8 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
+## To find the inversion  of a matrix is very time consuming phenomenon. 
+##It is  always batter  to caching the inverse of a matrix despite of compute it when required. 
+##The following function  will be used to create a to caches its inverse.
+######################################################################################
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
   set <- function(y) {
